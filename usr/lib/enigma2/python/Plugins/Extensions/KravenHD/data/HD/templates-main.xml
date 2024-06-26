@@ -3239,7 +3239,7 @@ if textheight > 30:
 	windowwidth_min = 768
 
 # calc listheight
-count = len(self.list)
+count = len(self.choiceList)
 if count &gt; 15:
 	count = 15
 listheight = listitemheight * count
