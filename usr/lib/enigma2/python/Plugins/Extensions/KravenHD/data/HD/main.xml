@@ -3868,7 +3868,7 @@ width_offset = 10
 windowwidth = 650
 
 # calc listheight
-count = len(self.choiceList)
+count = len(self.list)
 if count &gt; 15:
 	count = 15
 listheight = listitemheight * count
