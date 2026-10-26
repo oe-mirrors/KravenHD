@@ -3275,7 +3275,7 @@ class KravenHD(ConfigListScreen, Screen):
 				self.skinSearchAndReplace.append(['sel_MS.png', 'sel_30.png'])
 
 			# EPGSelection
-			ESitems = config.epgselection.enhanced_itemsperpage.value
+			ESitems = (config.epgselection.single.itemsperpage if hasattr(config.epgselection, "single") else config.epgselection.enhanced_itemsperpage).value  # new EPG config uses "single"
 			if (ESitems <= 10):
 				self.skinSearchAndReplace.append(['sel_ES.png', 'sel_70.png'])
 			if (11 <= ESitems <= 13):
@@ -3286,7 +3286,7 @@ class KravenHD(ConfigListScreen, Screen):
 				self.skinSearchAndReplace.append(['sel_ES.png', 'sel_30.png'])
 
 			# EPGSelectionMulti
-			ESMitems = config.epgselection.multi_itemsperpage.value
+			ESMitems = (config.epgselection.multi.itemsperpage if hasattr(config.epgselection, "multi") else config.epgselection.multi_itemsperpage).value
 			if (ESMitems <= 10):
 				self.skinSearchAndReplace.append(['sel_ESM.png', 'sel_70.png'])
 			if (11 <= ESMitems <= 13):
@@ -4039,26 +4039,15 @@ class KravenHD(ConfigListScreen, Screen):
 			self.skinSearchAndReplace.append(['<panel name="GEMT-small"/>', '<panel name="GEMT-big"/>'])
 
 		### GraphicalEPG
-		if config.plugins.KravenHD.GraphicalEPG.value == "text":
-			config.epgselection.graph_type_mode.value = False
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = False
-			config.epgselection.graph_pig.save()
-		elif config.plugins.KravenHD.GraphicalEPG.value == "text-minitv":
-			config.epgselection.graph_type_mode.value = False
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = True
-			config.epgselection.graph_pig.save()
-		elif config.plugins.KravenHD.GraphicalEPG.value == "graphical":
-			config.epgselection.graph_type_mode.value = "graphics"
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = False
-			config.epgselection.graph_pig.save()
-		elif config.plugins.KravenHD.GraphicalEPG.value == "graphical-minitv":
-			config.epgselection.graph_type_mode.value = "graphics"
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = True
-			config.epgselection.graph_pig.save()
+		graphicalEPG = config.plugins.KravenHD.GraphicalEPG.value
+		epgGrid = config.epgselection.grid if hasattr(config.epgselection, "grid") else config.epgselection  # new EPG config uses "grid" and "type_mode"
+		graphType = epgGrid.type_mode if hasattr(epgGrid, "type_mode") else epgGrid.graph_type_mode
+		graphPig = epgGrid.pig if hasattr(epgGrid, "pig") else epgGrid.graph_pig
+		if graphicalEPG in ("text", "text-minitv", "graphical", "graphical-minitv"):
+			graphType.value = "graphics" if graphicalEPG.startswith("graphical") else ("text" if hasattr(epgGrid, "type_mode") else False)
+			graphType.save()
+			graphPig.value = graphicalEPG.endswith("minitv")
+			graphPig.save()
 
 		### MovieSelection
 		self.appendSkinFile(self.data + config.plugins.KravenHD.MovieSelection.value + ".xml")
