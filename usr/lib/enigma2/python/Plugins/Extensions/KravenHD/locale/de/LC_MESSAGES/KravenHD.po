@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: KravenHD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-06 23:16+0200\n"
-"PO-Revision-Date: 2024-01-21 15:45+0100\n"
-"Last-Translator: örlgrey <ochzoetna@gmail.com>\n"
+"PO-Revision-Date: 2026-10-30 18:53+0000\n"
+"Last-Translator: StreamForge83\n"
 "Language-Team: kraven & mike99\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -2347,3 +2347,57 @@ msgid ""
 msgstr ""
 "Sie haben keine Berechtigungen.\n"
 "Bitte wählen Sie einen anderen Pfad."
+
+# OpenATV 8.0 update
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ECM INFOS ________________________________________________________________________________"
+msgstr "ECM-INFOS ________________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PLAYER ________________________________________________________________________________"
+msgstr "WIEDERGABE ____________________________________________________________________________"
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "CI Modul"
+msgstr "CI-Modul"
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Catalan"
+msgstr "Katalanisch"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of selected events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr "Wählen Sie die Hintergrundfarbe der ausgewählten Sendungen für \"Graphisches EPG\". Drücken Sie OK, um Ihre eigene RGB-Farbe festzulegen."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of selected events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr "Wählen Sie die Schriftfarbe der ausgewählten Sendungen für \"Graphisches EPG\". Drücken Sie OK, um Ihre eigene RGB-Farbe festzulegen."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GraphicalEPG"
+msgstr "Graphisches EPG"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MovieSelection"
+msgstr "Filmauswahl"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PermanentClock-Color"
+msgstr "PermanentClock-Farbe"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Screens"
+msgstr "Seiten"
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "SecondInfobar"
+msgstr "Zweite Infoleiste"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "The FAQ requires the MPHelp plugin (enigma2-plugin-systemplugins-mphelp)."
+msgstr "Die FAQ benötigen das MPHelp-Plugin (enigma2-plugin-systemplugins-mphelp)."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Use the sliders to define your color:"
+msgstr "Legen Sie Ihre Farbe mit den Schiebereglern fest:"
