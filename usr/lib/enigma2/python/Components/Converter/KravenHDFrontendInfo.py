@@ -57,7 +57,7 @@ class KravenHDFrontendInfo(Poll, Converter, object):
 			if count is not None:
 				return str(count)
 			else:
-				return "N/A"
+				return ""  # No frontend data (e.g. IPTV stream).
 		elif self.type == self.AGC:
 			percent = self.source.agc
 		elif self.type == self.SNR:
@@ -68,9 +68,9 @@ class KravenHDFrontendInfo(Poll, Converter, object):
 			elif self.source.snr is not None: #fallback to normal SNR...
 				percent = self.source.snr
 		elif self.type == self.TUNER_TYPE:
-			return self.source.frontend_type and self.frontend_type or "Unknown"
+			return self.source.frontend_type or "Unknown"
 		if percent is None:
-			return "N/A"
+			return ""  # No frontend data (e.g. IPTV stream).
 		return "%d%%" % (percent * 100 / 65536)
 
 	@cached
@@ -98,8 +98,9 @@ class KravenHDFrontendInfo(Poll, Converter, object):
 		elif self.type == self.SNR:
 			return self.source.snr or 0
 		elif self.type == self.BER:
-			if self.BER < self.range:
-				return self.BER or 0
+			ber = self.source.ber or 0
+			if ber < self.range:
+				return ber
 			else:
 				return self.range
 		elif self.type == self.TUNER_TYPE:

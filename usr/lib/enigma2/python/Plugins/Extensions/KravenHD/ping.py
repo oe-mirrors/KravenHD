@@ -39,7 +39,6 @@ import struct
 import select
 import time
 import sys
-import six
 
 # From /usr/include/linux/icmp.h; your milage may vary.
 ICMP_ECHO_REQUEST=8 # Seems to be the same on Solaris.
@@ -48,19 +47,16 @@ ICMP_ECHO_REQUEST=8 # Seems to be the same on Solaris.
 # to suggest that it gives the same answers as in_cksum in ping.c
 def checksum(str):
   sum=0
-  countTo=(len(str)/2)*2
+  countTo=(len(str)//2)*2
   count=0
   while count<countTo:
-    if six.PY2:
-      thisVal=ord(str[count+1])*256+ord(str[count])
-    else:
-      thisVal=str[count+1]*256+str[count]
+    thisVal=str[count+1]*256+str[count]
     sum=sum+thisVal
     sum=sum & 0xffffffff # Necessary?
     count=count+2
 
   if countTo<len(str):
-    sum=sum+ord(str[len(str)-1])
+    sum=sum+str[len(str)-1]
     sum=sum & 0xffffffff # Necessary?
 
   sum=(sum >> 16) + (sum & 0xffff)

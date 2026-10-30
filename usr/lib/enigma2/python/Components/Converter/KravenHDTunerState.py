@@ -167,7 +167,7 @@ class KravenHDTunerState(Poll, Converter, object):
 			info = service and service.info()
 
 			if info:
-				self.streamactive = service.streamed() is not None
+				self.streamactive = service.streamed() is not None or self.isIPTV(info)
 
 				if self.streamastuner and self.streamactive:
 					if boxes.count("99_R") > 0:
@@ -188,6 +188,12 @@ class KravenHDTunerState(Poll, Converter, object):
 				self.box -= (self.boxcount - self.availabletuners)
 			else:
 				self.box -= (self.boxcount - self.activetuners)
+
+	def isIPTV(self, info):
+		# OpenATV 8.0 plays IPTV bouquet entries (URL in the service reference)
+		# through services that do not report streamed(), so check the reference.
+		refstr = info.getInfoString(iServiceInformation.sServiceref) or ""
+		return "%3a//" in refstr.lower() or refstr.startswith(("4097:", "5001:", "5002:", "8193:"))
 
 	def intFirst(self, elem):
 		return int(elem.split("_")[0])

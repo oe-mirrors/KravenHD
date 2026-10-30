@@ -23,7 +23,7 @@ import requests, time, os, gettext
 from Components.Converter.Poll import Poll
 from Plugins.Extensions.KravenHD import ping
 from lxml import etree
-from xml.etree.cElementTree import fromstring
+from xml.etree.ElementTree import fromstring
 from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
 from Components.Language import language
 

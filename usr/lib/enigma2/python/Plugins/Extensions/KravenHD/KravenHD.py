@@ -38,8 +38,7 @@ from PIL import Image, ImageFilter, ImageDraw
 import gettext, time, subprocess, requests
 from enigma import ePicLoad, getDesktop, eConsoleAppContainer, eTimer
 from Tools.Directories import fileExists, resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
-from xml.etree.cElementTree import fromstring
-import six
+from xml.etree.ElementTree import fromstring
 
 DESKTOP_WIDTH = getDesktop(0).size().width()
 
@@ -140,6 +139,7 @@ BackgroundList = [
 	("ffffff", _("white"))
 	]
 
+TextureNames = {"31": "ATV Carbon", "32": "ATV Hex", "33": "ATV Brushed Steel", "34": "ATV Swoosh", "35": "ATV Dots"}  # OpenATV 8.0 style textures
 TextureList = []
 
 for i in range(1, 50):
@@ -149,7 +149,7 @@ for i in range(1, 50):
 for i in range(1, 50):
 	n = str(i)
 	if fileExists("/usr/share/enigma2/KravenHD/textures/texture" + n + ".png") or fileExists("/usr/share/enigma2/KravenHD/textures/texture" + n + ".jpg"):
-		TextureList.append(("texture" + n, _("texture") + " " + n))
+		TextureList.append(("texture" + n, _("texture") + " " + n + (" - " + TextureNames[n] if n in TextureNames else "")))
 
 BorderSelfList = deepcopy(ColorSelfList)
 BorderSelfList.append(("none", _("off")))
@@ -2743,8 +2743,12 @@ class KravenHD(ConfigListScreen, Screen):
 			self.session.openWithCallback(self.BrowserCallBack, KravenHDBrowser, _("Choose the poster path"))
 
 	def faq(self):
-		from Plugins.SystemPlugins.MPHelp.plugin import PluginHelp
-		from Plugins.SystemPlugins.MPHelp.XMLHelp import XMLHelpReader
+		try:
+			from Plugins.SystemPlugins.MPHelp.plugin import PluginHelp
+			from Plugins.SystemPlugins.MPHelp.XMLHelp import XMLHelpReader
+		except ImportError:
+			self.session.open(MessageBox, _("The FAQ requires the MPHelp plugin (enigma2-plugin-systemplugins-mphelp)."), MessageBox.TYPE_INFO, timeout=10)
+			return
 		reader = XMLHelpReader(resolveFilename(SCOPE_PLUGINS, "Extensions/KravenHD/faq.xml"))
 		KravenHDFaq = PluginHelp(*reader)
 		KravenHDFaq.open(self.session)
@@ -4202,10 +4206,14 @@ class KravenHD(ConfigListScreen, Screen):
 			return boxname
 		else:
 			try:
-				from boxbranding import getMachineName
-				return getMachineName()
+				from Components.SystemInfo import BoxInfo
+				return BoxInfo.getItem("machinebuild") or BoxInfo.getItem("displaymodel") or "unknown"
 			except ImportError:
-				return "unknown"
+				try:
+					from boxbranding import getMachineName
+					return getMachineName()
+				except ImportError:
+					return "unknown"
 
 	def getTuners(self):
 		from Components.Sources.TunerInfo import TunerInfo
@@ -5058,27 +5066,18 @@ class KravenHD(ConfigListScreen, Screen):
 		mask.paste(corner.transpose(Image.ROTATE_180), (width - radius, height - radius))
 		mask.paste(corner.transpose(Image.FLIP_TOP_BOTTOM), (0, height - radius))
 
-		if six.PY2:
-			gradient = Image.new("RGBA", (1, height / 2), (r2, g2, b2, trans))
-		else:
-			gradient = Image.new("RGBA", (1, int(height / 2)), (r2, g2, b2, trans))
+		gradient = Image.new("RGBA", (1, int(height / 2)), (r2, g2, b2, trans))
 		for pos in range(0, gradientsize):
 			p = pos / float(gradientsize)
 			r = r2 * p + r1 * (1 - p)
 			g = g2 * p + g1 * (1 - p)
 			b = b2 * p + b1 * (1 - p)
 			gradient.putpixel((0, pos), (int(r), int(g), int(b), trans))
-		if six.PY2:
-			gradient = gradient.resize((width, height / 2))
-		else:
-			gradient = gradient.resize((width, int(height / 2)))
+		gradient = gradient.resize((width, int(height / 2)))
 
 		img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
 		img.paste(gradient, (0, 0))
-		if six.PY2:
-			img.paste(gradient.transpose(Image.FLIP_TOP_BOTTOM), (0, height / 2))
-		else:
-			img.paste(gradient.transpose(Image.FLIP_TOP_BOTTOM), (0, int(height / 2)))
+		img.paste(gradient.transpose(Image.FLIP_TOP_BOTTOM), (0, int(height / 2)))
 		img.putalpha(mask)
 		img.save("/usr/share/enigma2/KravenHD/buttons/icon1.png")
 

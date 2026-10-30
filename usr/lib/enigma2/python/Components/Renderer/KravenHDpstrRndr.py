@@ -53,7 +53,7 @@ class KravenHDpstrRndr(Renderer):
 				if os.path.isdir(config.plugins.KravenHD.PosterPath.value):
 					eventName = self.source.text
 					if eventName :
-						posterNm = re.sub('\s+', '+', eventName)
+						posterNm = re.sub(r'\s+', '+', eventName)
 						pstrNm = config.plugins.KravenHD.PosterPath.value + "/" + self.path + posterNm + ".jpg"
 
 						if os.path.exists(pstrNm):

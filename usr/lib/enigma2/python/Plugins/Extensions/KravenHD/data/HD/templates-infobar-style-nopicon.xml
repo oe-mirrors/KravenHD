@@ -83,7 +83,7 @@
 		<convert type="FrontendInfo">AGC</convert>
 	  </widget>
 	  <widget backgroundColor="KravenIBbg" source="session.FrontendStatus" render="Label" font="Regular;18" foregroundColor="KravenIcon" position="153,687" name="KravenIconVPosition" size="46,22" halign="right" transparent="1" zPosition="1">
-		<convert type="FrontendInfo">AGC</convert>
+		<convert type="KravenHDFrontendInfo">AGC</convert>
 	  </widget>
 	  <ePixmap pixmap="KravenHD/infobar-icons/empty_big.png" position="209,687" size="163,22" zPosition="1" alphatest="blend" />
 	  <eLabel backgroundColor="KravenIBbg" font="Regular;18" foregroundColor="KravenIcon" text="SNR:" position="213,687" name="KravenIconVPosition" size="40,22" halign="left" transparent="1" zPosition="1" />
@@ -91,7 +91,7 @@
 		<convert type="FrontendInfo">SNR</convert>
 	  </widget>
 	  <widget backgroundColor="KravenIBbg" source="session.FrontendStatus" render="Label" font="Regular;18" foregroundColor="KravenIcon" position="322,687" name="KravenIconVPosition" size="46,22" halign="right" transparent="1" zPosition="1">
-		<convert type="FrontendInfo">SNR</convert>
+		<convert type="KravenHDFrontendInfo">SNR</convert>
 	  </widget>
 	  <ePixmap pixmap="KravenHD/infobar-icons/infobox.png" position="378,687" size="116,22" zPosition="1" alphatest="blend" />
 	  <ePixmap pixmap="KravenHD/infobar-icons/resolution.png" position="500,687" size="112,22" zPosition="1" alphatest="blend" />
@@ -315,8 +315,8 @@
 	</screen>
 	
 	<screen name="infobar-style-nopicon-infobox-tunerinfo">
-	  <widget backgroundColor="KravenIBbg" font="Regular;18" position="381,687" name="KravenIconVPosition" valign="center" foregroundColor="KravenIcon" halign="left" size="54,22" render="Label" source="session.CurrentService" transparent="1">
-		<convert type="KravenHDServiceName2">OrbitalPos</convert>
+	  <widget backgroundColor="KravenIBbg" font="Regular;18" position="381,687" name="KravenIconVPosition" valign="center" foregroundColor="KravenIcon" halign="left" size="67,22" render="Label" source="session.CurrentService" transparent="1">
+		<convert type="KravenHDServiceName2">OrbitalPosInfobox</convert>
 	  </widget>
 	  <widget render="Label" font="Regular;18" size="67,22" halign="right" backgroundColor="KravenIBbg" transparent="1" noWrap="1" position="424,687" name="KravenIconVPosition" valign="center" foregroundColor="KravenIcon" source="session.CurrentService">
 		<convert type="KravenHDTunerType">tunertype</convert>

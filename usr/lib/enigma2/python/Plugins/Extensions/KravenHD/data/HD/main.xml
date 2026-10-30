@@ -2235,19 +2235,34 @@
 
   <screen name="QuickMenu" position="0,0" size="1280,720" title="Quickmenu" flags="wfNoBorder" backgroundColor="transparent">
 	<!--*Quickmenu*-->
-    <widget backgroundColor="Kravenbg3" name="list" position="42,80" size="334,450" scrollbarMode="showOnDemand" scrollbarWidth="10" itemHeight="50" selectionPixmap="KravenHD/graphics/sel_50.png" transparent="1" />
-    <widget backgroundColor="Kravenbg3" name="description" position="42,565" size="736,110" zPosition="1" font="Regular2;22" foregroundColor="KravenFont2" halign="center" transparent="1" />
-    <widget backgroundColor="Kravenbg3" name="sublist" position="383,80" size="395,450" itemHeight="50" selectionPixmap="KravenHD/graphics/sel_50.png" transparent="1" />
+    <!-- OpenATV 8.0: mainlist/sublist are List sources (Screens/QuickMenu.py) -->
+    <widget backgroundColor="Kravenbg3" source="mainlist" render="Listbox" position="42,80" size="334,500" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <templates>
+        <template name="Default" fonts="Regular;21,Regular;15" itemHeight="50">
+          <mode name="default">
+            <pixmap index="2" position="10,9" size="32,32" alpha="blend" scale="centerScaled" />
+            <text index="0" position="50,3" size="274,25" font="0" verticalAlignment="center" />
+            <text index="1" position="63,27" size="261,20" font="1" foregroundColor="KravenFont2" verticalAlignment="center" wrap="ellipsis" />
+          </mode>
+        </template>
+      </templates>
+    </widget>
+    <widget backgroundColor="Kravenbg3" source="sublist" render="Listbox" position="383,80" size="395,500" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <templates>
+        <template name="Default" fonts="Regular;21,Regular;15" itemHeight="50">
+          <mode name="default">
+            <text index="0" position="10,3" size="375,25" font="0" verticalAlignment="center" />
+            <text index="1" position="23,27" size="362,20" font="1" foregroundColor="KravenFont2" verticalAlignment="center" wrap="ellipsis" />
+          </mode>
+        </template>
+      </templates>
+    </widget>
+    <widget backgroundColor="Kravenbg3" name="description" position="42,587" size="736,73" zPosition="1" font="Regular2;20" foregroundColor="KravenFont2" halign="center" valign="center" transparent="1" />
     <panel name="Title-big"/>
-	<!-- Logo -->
+	<panel name="Logo1"/>
 	<panel name="gradient-menu"/>
-	<widget font="Regular;20" halign="left" valign="center" name="key_red" position="47,670" size="220,26" backgroundColor="KravenIBbg3" foregroundColor="KravenButton" transparent="1" zPosition="1" />
-	<widget font="Regular;20" halign="left" valign="center" name="key_green" position="297,670" size="240,26" backgroundColor="KravenIBbg3" foregroundColor="KravenButton" transparent="1" zPosition="1" />
-	<widget font="Regular;20" halign="left" valign="center" name="key_yellow" position="547,670" size="220,26" backgroundColor="KravenIBbg3" foregroundColor="KravenButton" transparent="1" zPosition="1" />
-	<ePixmap alphatest="blend" pixmap="KravenHD/buttons/key_red1.png" position="42,697" size="200,5" />
-	<ePixmap alphatest="blend" pixmap="KravenHD/buttons/key_green1.png" position="292,697" size="200,5" />
-	<ePixmap alphatest="blend" pixmap="KravenHD/buttons/key_yellow1.png" position="542,697" size="200,5" />
-	<panel name="Exit"/>
+    <panel name="RGYB_Buttons"/>
+    <panel name="Exit"/>
   </screen>
 
   <screen name="QuickMenuDevices" position="0,0" size="1280,720" title="Devices" flags="wfNoBorder" backgroundColor="transparent">
@@ -2813,6 +2828,164 @@
 	<panel name="gradient-menu"/>
     <panel name="RGYB_Buttons"/>
     <panel name="Exit"/>
+  </screen>
+  <!-- OpenATV 8.0: Network (Screens/NetworkSetup.py) -->
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkOverview" position="0,0" size="1280,720" title="Network Overview">
+	<!--*NetworkOverview*-->
+    <panel name="Title-big"/>
+    <widget backgroundColor="Kravenbg3" source="adapterList" render="Listbox" position="42,80" size="736,300" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <template name="Default" fonts="Regular2;17,enigma2icons;30,Regular;20,Regular;15,enigma2icons;20,Regular;18" itemHeight="50">
+        <rowtemplate>
+          <text index="AdapterName" position="10,3" size="250,25" font="0" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="StatusText" position="290,3" size="147,25" font="0" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="IPAddress" position="440,3" size="140,25" font="0" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Gateway" position="440,27" size="140,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="MAC" position="583,3" size="140,25" font="0" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Speed" position="583,27" size="140,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+        </rowtemplate>
+        <rowtemplate>
+          <text index="AdapterGlyph" position="10,9" size="37,33" font="1" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="AdapterName" position="53,3" size="207,25" font="2" verticalAlignment="center" />
+          <text index="AdapterType" position="53,27" size="207,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="InternetGlyph" position="260,0" size="30,50" font="4" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="StatusText" position="290,3" size="147,25" font="5" foregroundColor="+StatusColor" foregroundColorSelected="+StatusColorSelected" verticalAlignment="center" />
+          <text index="ConnectionText" position="290,27" size="147,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="IPAddress" position="440,3" size="140,25" font="5" verticalAlignment="center" />
+          <text index="Gateway" position="440,27" size="140,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="MAC" position="583,3" size="140,25" font="3" verticalAlignment="center" />
+          <text index="Speed" position="583,27" size="140,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+        </rowtemplate>
+      </template>
+    </widget>
+    <widget backgroundColor="Kravenbg3" source="savedLabel" render="Label" position="42,390" size="736,27" font="Regular2;20" foregroundColor="KravenFont2" valign="center" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="Kravenbg3" source="savedList" render="Listbox" position="42,420" size="736,200" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <template name="Default" fonts="Regular2;17,Regular;19,enigma2icons;20,Regular;15" itemHeight="50">
+        <rowtemplate>
+          <text index="SSID" position="10,3" size="347,25" font="0" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="StatusText" position="360,3" size="80,25" font="0" foregroundColor="KravenFont2" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="Encryption" position="443,3" size="280,25" font="0" foregroundColor="KravenFont2" horizontalAlignment="right" verticalAlignment="center" />
+          <text index="BSSID" position="10,27" size="200,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Frequency" position="443,27" size="133,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Channel" position="580,27" size="143,20" font="3" foregroundColor="KravenFont2" horizontalAlignment="right" verticalAlignment="center" />
+        </rowtemplate>
+        <rowtemplate>
+          <text index="SSID" position="10,3" size="347,25" font="1" verticalAlignment="center" />
+          <text index="StatusGlyph" position="360,0" size="80,50" font="2" foregroundColor="+StatusColor" foregroundColorSelected="+StatusColorSelected" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="Encryption" position="443,3" size="280,25" font="1" horizontalAlignment="right" verticalAlignment="center" />
+          <text index="BSSID" position="10,27" size="200,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Frequency" position="443,27" size="133,20" font="3" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Channel" position="580,27" size="143,20" font="3" foregroundColor="KravenFont2" horizontalAlignment="right" verticalAlignment="center" />
+        </rowtemplate>
+      </template>
+    </widget>
+    <panel name="RGYB_Buttons"/>
+    <widget source="key_info" render="Label" position="1021,671" size="67,26" font="Regular;17" foregroundColor="KravenButton" backgroundColor="KravenIBbg3" halign="center" valign="center" transparent="1" zPosition="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="key_menu" render="Pixmap" pixmap="KravenHD/infobar-global-icons/key_menu.png" position="1095,675" size="43,22" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+	<!-- Logo -->
+	<panel name="gradient-menu"/>
+    <panel name="OKExit"/>
+  </screen>
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkWiFiScan" position="0,0" size="1280,720" title="Wi-Fi Scan">
+	<!--*NetworkWiFiScan*-->
+    <panel name="Title-big"/>
+    <widget backgroundColor="Kravenbg3" source="list" render="Listbox" position="42,80" size="736,500" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <template name="Default" fonts="Regular;21,Regular;15,enigma2icons;20,Regular;18" itemHeight="50">
+        <mode name="default">
+          <text index="Name" position="10,3" size="467,25" flags="scroll" font="0" verticalAlignment="center" />
+          <text index="Glyph" position="483,0" size="33,50" font="2" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="Percentage" position="520,3" size="80,25" font="3" horizontalAlignment="right" verticalAlignment="center" />
+          <text index="dBm" position="603,3" size="120,25" font="3" horizontalAlignment="right" verticalAlignment="center" />
+          <text index="Encryption" position="10,27" size="333,20" font="1" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Channel" position="347,27" size="170,20" font="1" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Frequency" position="520,27" size="203,20" font="1" foregroundColor="KravenFont2" horizontalAlignment="right" verticalAlignment="center" />
+        </mode>
+      </template>
+    </widget>
+    <widget backgroundColor="Kravenbg3" name="description" position="42,585" size="736,27" font="Regular2;21" foregroundColor="KravenFont2" halign="center" valign="center" transparent="1" />
+    <panel name="RGYB_Buttons"/>
+	<!-- Logo -->
+	<panel name="gradient-menu"/>
+    <panel name="OKExit"/>
+  </screen>
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkWiFiActivator" position="0,0" size="1280,720" title="Wi-Fi Activator">
+	<!--*NetworkWiFiActivator*-->
+    <panel name="Title-big"/>
+    <widget backgroundColor="Kravenbg3" name="status" position="42,80" size="736,540" font="Regular;23" foregroundColor="KravenFont1" halign="center" valign="center" transparent="1" />
+    <panel name="RGYB_Buttons"/>
+	<!-- Logo -->
+	<panel name="gradient-menu"/>
+    <panel name="Exit"/>
+  </screen>
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkTest" position="0,0" size="1280,720" title="Network Test">
+	<!--*NetworkTest*-->
+    <panel name="Title-big"/>
+    <widget backgroundColor="Kravenbg3" source="list" render="Listbox" position="42,80" size="736,480" scrollbarMode="showNever" selection="false" foregroundColor="KravenFont1" foregroundColorSelected="KravenFont1" transparent="1">
+      <template name="Default" fonts="enigma2icons;23,Regular;20,Regular;17" itemHeight="40">
+        <mode name="default">
+          <text index="Glyph" position="10,0" size="33,40" font="0" foregroundColor="+Color" foregroundColorSelected="+Color" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="Label" position="53,0" size="200,40" font="1" verticalAlignment="center" />
+          <text index="Result" position="260,0" size="200,40" font="1" foregroundColor="+Color" foregroundColorSelected="+Color" verticalAlignment="center" />
+          <text index="Detail" position="467,0" size="260,40" font="2" foregroundColor="KravenFont2" verticalAlignment="center" />
+        </mode>
+      </template>
+    </widget>
+    <panel name="RGYB_Buttons"/>
+	<!-- Logo -->
+	<panel name="gradient-menu"/>
+    <panel name="Exit"/>
+  </screen>
+  <!-- OpenATV 8.0: Network Mounts (Screens/NetworkMounts.py) -->
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkMountsOverview" position="0,0" size="1280,720" title="Network Mounts Overview">
+	<!--*NetworkMountsOverview*-->
+    <panel name="Title-big"/>
+    <widget backgroundColor="Kravenbg3" source="mountList" render="Listbox" position="42,80" size="736,500" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <templates>
+        <template name="Default" fonts="Regular;21,Regular;15,Regular;18" itemHeight="50">
+          <mode name="default">
+            <text index="ShareName" position="10,3" size="507,25" font="0" verticalAlignment="center" />
+            <text index="Description" position="23,27" size="493,20" font="1" foregroundColor="KravenFont2" verticalAlignment="center" />
+            <text index="Mounted" position="520,0" size="107,50" font="2" verticalAlignment="center" />
+            <text index="Active" position="627,0" size="97,50" font="2" horizontalAlignment="right" verticalAlignment="center" />
+          </mode>
+        </template>
+      </templates>
+    </widget>
+    <panel name="RGYB_Buttons"/>
+	<!-- Logo -->
+	<panel name="gradient-menu"/>
+    <panel name="MenuOKExit"/>
+  </screen>
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="NetworkShares" position="0,0" size="1280,720" title="Network Shares Browser">
+	<!--*NetworkShares*-->
+    <panel name="Title-big"/>
+    <widget backgroundColor="Kravenbg3" source="list" render="Listbox" position="42,80" size="736,500" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="10" selectionPixmap="KravenHD/graphics/sel_50.png" foregroundColor="KravenFont1" foregroundColorSelected="KravenSelFont" transparent="1">
+      <template name="Default" fonts="enigma2icons;33,Regular2;21,enigma2icons;21,Regular;19,Regular;15" itemHeight="50">
+        <rowtemplate>
+          <text index="Glyph" position="10,0" size="40,50" font="0" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="IPAddress" position="57,0" size="173,50" font="3" verticalAlignment="center" />
+          <text index="Name" position="233,0" size="320,50" font="1" verticalAlignment="center" />
+          <text index="Username" position="557,0" size="167,50" font="4" foregroundColor="KravenFont2" horizontalAlignment="right" verticalAlignment="center" />
+        </rowtemplate>
+        <rowtemplate>
+          <text index="Glyph" position="57,0" size="33,50" font="2" foregroundColor="+GlyphColor" horizontalAlignment="center" verticalAlignment="center" />
+          <text index="Type" position="93,0" size="60,50" font="4" foregroundColor="KravenFont2" verticalAlignment="center" />
+          <text index="Name" position="157,3" size="567,25" font="3" verticalAlignment="center" />
+          <text index="Description" position="157,27" size="300,20" font="4" verticalAlignment="center" />
+          <text index="LocalPath" position="460,27" size="263,20" font="4" foregroundColor="KravenFont2" horizontalAlignment="right" verticalAlignment="center" />
+        </rowtemplate>
+      </template>
+    </widget>
+    <widget backgroundColor="Kravenbg3" name="description" position="42,585" size="736,27" font="Regular2;21" foregroundColor="KravenFont2" halign="center" valign="center" transparent="1" />
+    <panel name="RGYB_Buttons"/>
+	<!-- Logo -->
+	<panel name="gradient-menu"/>
+    <panel name="MenuOKExit"/>
   </screen>
 
   <screen name="NetworkMiniDLNA" title="MiniDLNA Setup" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">

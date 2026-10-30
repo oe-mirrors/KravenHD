@@ -20,7 +20,7 @@
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.config import config
-import json, re, os, six.moves.urllib.request
+import json, re, os, urllib.request
 
 class KravenHDpstrCnvrt(Converter, object):
 	def __init__(self, type):
@@ -41,13 +41,13 @@ class KravenHDpstrCnvrt(Converter, object):
 					if self.type == "POSTER":
 						self.evnt = event.getEventName()
 						try:
-							p = '((.*?)) \([T](\d+)\)'
+							p = r'((.*?)) \([T](\d+)\)'
 							e1 = re.search(p,self.evnt)
 							if e1:
 								jr = e1.group(1)
-								self.evntNm = re.sub('\s+', '+', jr)
+								self.evntNm = re.sub(r'\s+', '+', jr)
 							else:
-								self.evntNm = re.sub('\s+', '+', self.evnt)
+								self.evntNm = re.sub(r'\s+', '+', self.evnt)
 							self.evntNmPstr = self.evntNm + ".jpg"
 							if not os.path.exists(self.posterpath + "/%s.jpg" % (self.evntNm)):
 								ses_ep = self.sessionEpisode(event)
@@ -73,19 +73,19 @@ class KravenHDpstrCnvrt(Converter, object):
 	def searchPoster(self):
 		if os.path.isdir(self.posterpath):
 			url_json = "https://api.themoviedb.org/3/search/%s?api_key=3c3efcf47c3577558812bb9d64019d65&query=%s" % (self.srch, self.evntNm)
-			jp = json.load(six.moves.urllib.request.urlopen(url_json))
+			jp = json.load(urllib.request.urlopen(url_json))
 			imgP = (jp['results'][0]['poster_path'])
 			url_poster = "https://image.tmdb.org/t/p/w185_and_h278_bestv2%s" % (imgP)
 			dwn_poster = self.posterpath + "/%s.jpg" % (self.evntNm)
 			if not os.path.exists(dwn_poster):
 				with open(dwn_poster, 'wb') as f:
-					f.write(six.moves.urllib.request.urlopen(url_poster).read())
+					f.write(urllib.request.urlopen(url_poster).read())
 					f.close()
 					return self.evntNm
 
 	def sessionEpisode(self, event):
 		fd = event.getShortDescription() + "\n" + event.getExtendedDescription()
-		pattern = ["(\d+). Staffel, Folge (\d+)", "T(\d+) Ep.(\d+)", "'Episodio (\d+)' T(\d+)"]
+		pattern = [r"(\d+). Staffel, Folge (\d+)", r"T(\d+) Ep.(\d+)", r"'Episodio (\d+)' T(\d+)"]
 		for i in pattern:
 			seg = re.search(i, fd)
 			if seg:
