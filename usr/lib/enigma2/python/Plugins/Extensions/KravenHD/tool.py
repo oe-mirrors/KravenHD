@@ -31,10 +31,11 @@ class KravenTool:
 	def getFBSize(self, decoder=0):
 		ret = []
 		for val in self.fb_info:
-			f = open('%s/%d/%s' % (self.fb_proc_path, decoder, val), 'r')
-			fb_val = f.read().strip()
-			ret.append(fb_val)
-			f.close()
+			try:
+				with open('%s/%d/%s' % (self.fb_proc_path, decoder, val), 'r') as f:
+					ret.append(f.read().strip())
+			except OSError:  # Boxes without /proc/stb/vmpeg/<decoder>/dst_* (e.g. Dreambox Two, other Amlogic).
+				return None
 
 		if len(ret) == 4:
 			return ret

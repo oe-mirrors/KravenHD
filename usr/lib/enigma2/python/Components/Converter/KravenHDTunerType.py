@@ -38,7 +38,8 @@ class KravenHDTunerType(Poll, Converter, object):
 
 	@cached
 	def getText(self):
-		return self.getServiceType()
+		type = self.getServiceType()
+		return "IPTV" if type == "STREAM" else type
 
 	text = property(getText)
 

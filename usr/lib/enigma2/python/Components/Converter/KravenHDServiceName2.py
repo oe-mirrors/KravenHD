@@ -53,6 +53,9 @@ class KravenHDServiceName2(Converter, object):
 			self.type = self.REFERENCE
 		elif type == "OrbitalPos":
 			self.type = self.ORBPOS
+		elif type == "OrbitalPosInfobox":  # Infobox: "Internet" for IPTV streams.
+			self.type = self.ORBPOS
+			self.streamText = "Internet"
 		elif type == "TransponderInfo":
 			self.type = self.TPRDATA
 		elif type == "Satellite":
@@ -529,7 +532,7 @@ class KravenHDServiceName2(Converter, object):
 			return refstr
 		elif self.type == self.ORBPOS:
 			if self.isStream:
-				return "Stream"
+				return getattr(self, "streamText", "Stream")
 			else:
 				if self.ref and self.info:
 					return self.getTransponderInfo(self.info, self.ref, 'O')

@@ -22,7 +22,7 @@ from os import environ
 import gettext
 from Tools.Directories import resolveFilename, SCOPE_LANGUAGE, SCOPE_PLUGINS
 from . import KravenHD
-from six.moves import reload_module
+from importlib import reload as reload_module
 
 lang = language.getLanguage()
 environ["LANGUAGE"] = lang[:2]

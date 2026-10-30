@@ -24,7 +24,6 @@ from shutil import move
 from os import remove, system, popen, path
 import time, subprocess
 from Tools.Directories import fileExists
-from six.moves import range
 
 ColorSelfList = [
 	("F0A30A", _("amber")),
@@ -111,6 +110,7 @@ BackgroundList = [
 	("ffffff", _("white"))
 	]
 
+TextureNames = {"31": "ATV Carbon", "32": "ATV Hex", "33": "ATV Brushed Steel", "34": "ATV Swoosh", "35": "ATV Dots"}  # OpenATV 8.0 style textures
 TextureList = []
 
 for i in range(1, 50):
@@ -120,7 +120,7 @@ for i in range(1, 50):
 for i in range(1, 50):
 	n=str(i)
 	if fileExists("/usr/share/enigma2/KravenHD/textures/texture"+n+".png") or fileExists("/usr/share/enigma2/KravenHD/textures/texture"+n+".jpg"):
-		TextureList.append(("texture"+n, _("texture")+" "+n))
+		TextureList.append(("texture"+n, _("texture")+" "+n+(" - "+TextureNames[n] if n in TextureNames else "")))
 
 BorderSelfList = deepcopy(ColorSelfList)
 BorderSelfList.append(("none", _("off")))
@@ -1639,7 +1639,7 @@ class ActivateSkinSettings:
 					self.skinSearchAndReplace.append(['sel_MS.png', 'sel_30.png'])
 
 				# EPGSelection
-				ESitems = config.epgselection.enhanced_itemsperpage.value
+				ESitems = (config.epgselection.single.itemsperpage if hasattr(config.epgselection, "single") else config.epgselection.enhanced_itemsperpage).value  # OpenATV 8.0: epgselection.single
 				if (ESitems <= 10):
 					self.skinSearchAndReplace.append(['sel_ES.png', 'sel_70.png'])
 				if (11 <= ESitems <= 13):
@@ -1650,7 +1650,7 @@ class ActivateSkinSettings:
 					self.skinSearchAndReplace.append(['sel_ES.png', 'sel_30.png'])
 
 				# EPGSelectionMulti
-				ESMitems = config.epgselection.multi_itemsperpage.value
+				ESMitems = (config.epgselection.multi.itemsperpage if hasattr(config.epgselection, "multi") else config.epgselection.multi_itemsperpage).value  # OpenATV 8.0: epgselection.multi
 				if (ESMitems <= 10):
 					self.skinSearchAndReplace.append(['sel_ESM.png', 'sel_70.png'])
 				if (11 <= ESMitems <= 13):
@@ -2410,26 +2410,16 @@ class ActivateSkinSettings:
 			self.skinSearchAndReplace.append(['<panel name="GEMT-small"/>', '<panel name="GEMT-big"/>'])
 
 		### GraphicalEPG
-		if not self.silent and config.plugins.KravenHD.GraphicalEPG.value == "text":
-			config.epgselection.graph_type_mode.value = False
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = False
-			config.epgselection.graph_pig.save()
-		elif not self.silent and config.plugins.KravenHD.GraphicalEPG.value == "text-minitv":
-			config.epgselection.graph_type_mode.value = False
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = True
-			config.epgselection.graph_pig.save()
-		elif not self.silent and config.plugins.KravenHD.GraphicalEPG.value == "graphical":
-			config.epgselection.graph_type_mode.value = "graphics"
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = False
-			config.epgselection.graph_pig.save()
-		elif not self.silent and config.plugins.KravenHD.GraphicalEPG.value == "graphical-minitv":
-			config.epgselection.graph_type_mode.value = "graphics"
-			config.epgselection.graph_type_mode.save()
-			config.epgselection.graph_pig.value = True
-			config.epgselection.graph_pig.save()
+		graphicalEPG = config.plugins.KravenHD.GraphicalEPG.value
+		if not self.silent and graphicalEPG in ("text", "text-minitv", "graphical", "graphical-minitv"):
+			epgGrid = config.epgselection.grid if hasattr(config.epgselection, "grid") else config.epgselection  # OpenATV 8.0: epgselection.grid.type_mode / .pig
+			newKeys = hasattr(epgGrid, "type_mode")
+			graphType = epgGrid.type_mode if newKeys else epgGrid.graph_type_mode
+			graphPig = epgGrid.pig if newKeys else epgGrid.graph_pig
+			graphType.value = "graphics" if graphicalEPG.startswith("graphical") else ("text" if newKeys else False)
+			graphType.save()
+			graphPig.value = graphicalEPG.endswith("minitv")
+			graphPig.save()
 
 		### MovieSelection
 		self.appendSkinFile(self.data + config.plugins.KravenHD.MovieSelection.value + ".xml")
@@ -2553,10 +2543,14 @@ class ActivateSkinSettings:
 			return boxname
 		else:
 			try:
-				from boxbranding import getMachineName
-				return getMachineName()
+				from Components.SystemInfo import BoxInfo
+				return BoxInfo.getItem("machinebuild") or BoxInfo.getItem("displaymodel") or "unknown"
 			except ImportError:
-				return "unknown"
+				try:
+					from boxbranding import getMachineName
+					return getMachineName()
+				except ImportError:
+					return "unknown"
 
 	def getTuners(self):
 		from Components.Sources.TunerInfo import TunerInfo
