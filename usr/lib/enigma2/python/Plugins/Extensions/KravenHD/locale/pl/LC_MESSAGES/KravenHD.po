@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: KravenHD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-06 23:16+0200\n"
-"PO-Revision-Date: 2020-10-16 17:43+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2026-10-30 18:53+0000\n"
+"Last-Translator: StreamForge83\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1793,3 +1793,215 @@ msgstr "Rozmiar czcionki menu głównego (styl „Standardowy”)"
 
 msgid "Mainmenu Icons Gradient Color ('Horizontal-Icons' Style)"
 msgstr "Kolor gradientu ikon w menu głównym (styl ikon poziomych)"
+
+# OpenATV 8.0 update
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PROFILES ________________________________________________________________________________"
+msgstr "PROFILE _________________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GLOBAL COLORS ________________________________________________________________________________"
+msgstr "GLOBALNE KOLORY ______________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "INFOBAR-LOOK ________________________________________________________________________________"
+msgstr "WYGLĄD PASKA INFO ___________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "INFOBAR-CONTENTS ________________________________________________________________________________"
+msgstr "ZAWARTOŚĆ PASKA INFO ____________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "WEATHER ________________________________________________________________________________"
+msgstr "POGODA _________________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "CLOCK ________________________________________________________________________________"
+msgstr "ZEGAR ________________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ECM INFOS ________________________________________________________________________________"
+msgstr "INFORMACJE ECM ___________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "VIEWS ________________________________________________________________________________"
+msgstr "WIDOKI _______________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "CHANNELLIST ________________________________________________________________________________"
+msgstr "LISTA KANAŁÓW ______________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GRAPHICALEPG ________________________________________________________________________________"
+msgstr "GRAFICZNE EPG _______________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PLAYER ________________________________________________________________________________"
+msgstr "ODTWARZACZ ____________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "VARIOUS SETTINGS ________________________________________________________________________________"
+msgstr "RÓŻNE USTAWIENIA ________________________________________________________________________________"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ANTIALIASING BRIGHTNESS ________________________________________________________________________________"
+msgstr "JASNOŚĆ WYGŁADZENIA ____________________________________________________________________________________"
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "CI Modul"
+msgstr "Moduł CI"
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Catalan"
+msgstr "Kataloński"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from available custom weather icons. The icons must be in a subdirectory in '/usr/share/enigma2/WeatherIconSets'."
+msgstr "Wybierz spośród dostępnych własnych ikon pogody. Ikony muszą znajdować się w podkatalogu '/usr/share/enigma2/WeatherIconSets'."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of running events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr "Wybierz kolor tła bieżących wydarzeń dla graficznego EPG. Naciśnij OK, aby zdefiniować własny kolor RGB."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of selected events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr "Wybierz kolor tła wybranych wydarzeń dla graficznego EPG. Naciśnij OK, aby zdefiniować własny kolor RGB."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of running events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr "Wybierz kolor czcionki bieżących wydarzeń dla graficznego EPG. Naciśnij OK, aby zdefiniować własny kolor RGB."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of selected events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr "Wybierz kolor czcionki wybranych wydarzeń dla graficznego EPG. Naciśnij OK, aby zdefiniować własny kolor RGB."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the poster path"
+msgstr "Wybierz ścieżkę plakatów"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"Choose the poster path.\n"
+"Press OK to open the browser.\n"
+"A folder 'poster' is automatically created for the poster path."
+msgstr ""
+"Wybierz ścieżkę plakatów.\n"
+"Naciśnij OK, aby otworzyć przeglądarkę.\n"
+"W ścieżce plakatów zostanie automatycznie utworzony folder 'poster'."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether the poster should be displayed in the infobar or not."
+msgstr "Wybierz, czy plakat ma być wyświetlany na pasku info."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py, Plugins/Extensions/KravenHD/plugin.py
+msgid "Configuration tool for KravenHD"
+msgstr "Panel konfiguracji KravenHD"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Correct the vertical font position within some icons for the infobars and players."
+msgstr "Popraw pionowe położenie czcionki w niektórych ikonach pasków info i odtwarzaczy."
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Deutsch"
+msgstr "Niemiecki"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EPGSelection"
+msgstr "Wybór EPG"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "FAQs"
+msgstr "FAQ"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GraphicalEPG"
+msgstr "Graficzne EPG"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Icon-Font vertical position"
+msgstr "Pionowe położenie czcionki ikon"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MovieSelection"
+msgstr "Wybór filmu"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Popups"
+msgstr "Okna wyskakujące"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Poster path"
+msgstr "Ścieżka plakatów"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Screens"
+msgstr "Ekrany"
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "SecondInfobar"
+msgstr "Drugi pasek info"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Select the default profile you want to use when resetting the active profile (OK button). You can add your own default profiles under /etc/enigma2/kravenhd_default_n (n<=20)."
+msgstr "Wybierz domyślny profil, którego chcesz użyć przy resetowaniu aktywnego profilu (przycisk OK). Własne profile domyślne możesz dodać jako /etc/enigma2/kravenhd_default_n (n<=20)."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show poster"
+msgstr "Pokaż plakat"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "The FAQ requires the MPHelp plugin (enigma2-plugin-systemplugins-mphelp)."
+msgstr "FAQ wymaga wtyczki MPHelp (enigma2-plugin-systemplugins-mphelp)."
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "The KravenHD skin will be generated by this plugin according to your preferences. Make your settings and watch the changes in the preview window above. When finished, save your skin by pressing the green button and restart the GUI."
+msgstr "Skórka KravenHD zostanie wygenerowana przez tę wtyczkę zgodnie z Twoimi preferencjami. Wprowadź ustawienia i obserwuj zmiany w oknie podglądu powyżej. Po zakończeniu zapisz skórkę, naciskając zielony przycisk, i uruchom ponownie GUI."
+
+#: Plugins/Extensions/KravenHD/DirectoryBrowser.py
+msgid "The full path can be seen in the preview text."
+msgstr "Pełną ścieżkę widać w tekście podglądu."
+
+#: Plugins/Extensions/KravenHD/DirectoryBrowser.py
+msgid "The path is not available"
+msgstr "Ścieżka jest niedostępna"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers various settings."
+msgstr "Ta sekcja zawiera różne ustawienia."
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Tunerinfo"
+msgstr "Informacje o tunerze"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Use custom weather icons"
+msgstr "Użyj własnych ikon pogody"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Use the sliders to define your color:"
+msgstr "Ustaw własny kolor suwakami:"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"You have no permissions.\n"
+"Please choose another path."
+msgstr ""
+"Brak uprawnień.\n"
+"Wybierz inną ścieżkę."
+
+#: Plugins/Extensions/KravenHD/DirectoryBrowser.py
+msgid "apply path"
+msgstr "zastosuj ścieżkę"
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "humidity"
+msgstr "wilgotność"
+
+#: Components/Converter/KravenHDLayoutInfo.py
+msgid "not available"
+msgstr "niedostępne"
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "various"
+msgstr "różne"

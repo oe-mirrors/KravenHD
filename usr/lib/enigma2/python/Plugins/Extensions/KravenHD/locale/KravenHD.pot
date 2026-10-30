@@ -1,0 +1,2505 @@
+# KravenHD translation template (English source strings).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KravenHD 7.9.33\n"
+"POT-Creation-Date: 2026-10-30 18:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Components/Converter/KravenHDDiskSpace.py, Components/Converter/KravenHDLayoutInfo.py
+msgid "free"
+msgstr ""
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "CI Modul"
+msgstr ""
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "System: unknown"
+msgstr ""
+
+#: Components/Converter/KravenHDECMLine.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "free to air"
+msgstr ""
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "no information available"
+msgstr ""
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "unknown"
+msgstr ""
+
+#: Components/Converter/KravenHDECMLine.py
+msgid "waiting for information ..."
+msgstr ""
+
+#: Components/Converter/KravenHDFrontendInfo.py
+msgid "dB"
+msgstr ""
+
+#: Components/Converter/KravenHDLayoutInfo.py
+msgid "Free"
+msgstr ""
+
+#: Components/Converter/KravenHDLayoutInfo.py
+msgid "Used"
+msgstr ""
+
+#: Components/Converter/KravenHDLayoutInfo.py
+msgid "not available"
+msgstr ""
+
+#: Components/Converter/KravenHDLayoutInfo.py
+msgid "used"
+msgstr ""
+
+#: Components/Converter/KravenHDRemainingToText.py
+msgid "remaining: "
+msgstr ""
+
+#: Components/Converter/KravenHDServiceInfoEX.py
+msgid "Vol: %s"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Alternative"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Cable"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Internet"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Satellite"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Stream-tv"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Streaming"
+msgstr ""
+
+#: Components/Converter/KravenHDServiceName2.py
+msgid "Terrestrial"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "   "
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py, Components/Converter/KravenHDWeather.py
+msgid ", feels "
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "AVG load:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Age"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Birthday"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Birthday Reminder Settings"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "CPU load:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "CPU:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Current Weather"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "ECM:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Flash:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "HDD:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Move/Copy"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py, Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Name"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Ram:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "SNR:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "SYS:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Sat:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "Select a path for the birthday file"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "USB:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "VerticalEPG"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "city:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "clime:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "coming:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "currently running:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "fanspeed:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "humidity"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "it follows:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "load"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "preview"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "r/m:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "running since"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "runs until"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "satellite"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "signal"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "temp:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "temperature"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "timeshift active"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "tuner"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "until live:"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "video"
+msgstr ""
+
+#: Components/Converter/KravenHDTextTranslator.py
+msgid "wind:"
+msgstr ""
+
+#: Components/Converter/KravenHDWeather.py
+msgid "% humidity"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid " "
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Primary Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Secondary Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "+1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "+2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "+3"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "-1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "-2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "-3"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "0"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "0 (hardcoded)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "10 px/sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "10 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "120"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "15"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "15 px/sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "15 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "2 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "20 px/sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "20 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "240"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "3"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "30"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "30 px/sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "4"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "4 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "480"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "5"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "5 px/sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "6 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "60"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "8 sec"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Bulgarian"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "CPU + Load"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Catalan"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Croatian"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Deutsch"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Dual TV"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Dual TV 2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Dutch"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "English"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Enter location manually"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Extended Preview"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "FHD"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Finnish"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "French"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "HD"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "IP"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Icons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar & SecondInfobar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Italian"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Kraven"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Kraven dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Kraven very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "KravenHD"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Logo"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV + Cover"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV + Icons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV Picon"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV left"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV right"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV/weather"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Name & Number"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Name & Number big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Name & Number small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Name big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Name small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "NetatmoBar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Nobile"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Nobile 2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Nobile Extended Preview"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Nobile MiniTV"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Nobile Preview"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Picon"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Polish"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Portuguese"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Preview"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Preview (2xOK)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Romanian"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Russian"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "SecondInfobar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Slovak"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Spanish"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Swedish"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Temperature + Fan"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Text"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Text with MiniTV"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Tuner/Satellite + SNR"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Tunerinfo"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Turkish"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Ukrainian"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Weather"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Weather2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "X-Picons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "X1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "X2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "X3"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Z-Picons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Z1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Z2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ZZ-Picons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ZZ1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ZZ2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ZZ3"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ZZZ-Picons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ZZZ1"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Zap (1xOK)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "amber"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "amber dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "amber very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "analog"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "android"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "balanced"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "big + Sat"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "big Cover"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "big Cover2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "black"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/ColorSelection.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "blue"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "blue dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "blue very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "box"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "box transparent"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "brown"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "brown dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "brown very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "center"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "center big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "center small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "cobalt"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "cobalt dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "cobalt very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "colored"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "colorfull"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "compact"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "complete"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "cyan"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "cyan dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "cyan very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "define new colors"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "emerald"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "extensive"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "flip"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "full"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "global colors"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "global colors big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "global colors small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "gradient"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "gradient transparent"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "graphical"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "graphical with MiniTV"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/ColorSelection.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "green"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "green dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "green very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "grey"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "grey dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "grey very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "in all Screens"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "infobar colors big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "infobar colors small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "left"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "left small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "left/right"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "light"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "line"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "middle"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "no Cover"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "no Cover2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "no Picon"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "no Picon2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "off"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "olive"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "olive dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "olive very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "on"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "only Infobar, SecondInfobar & Players"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "orange"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "orange dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "orange very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "original"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "pink"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "pink dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "pink very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/ColorSelection.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "red"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "red dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "red very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "rennmaus-kleiner.teufel"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "right"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "runningtext"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "self"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "short with CAID"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "short with source"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "single"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "small Cover"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "small Cover2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "solid color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "standard"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "standard big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "steel"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "steel dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "steel very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "stony272"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "stony272-gold-round"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "stony272-gold-square"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "stony272-metal"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "texture"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "top"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "transparent big"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "transparent small"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "two-colored"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "typewriter"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "user texture"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "very big Cover"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "very big Cover2"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "violet"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "violet dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "violet very dark"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "weather icon"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "white"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "with Border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ActivateSkinSettings.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "yellow"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ColorSelection.py
+msgid "Color Selection"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ColorSelection.py, Plugins/Extensions/KravenHD/DirectoryBrowser.py, Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Exit"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/ColorSelection.py
+msgid "Save Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/DirectoryBrowser.py
+msgid "The full path can be seen in the preview text."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/DirectoryBrowser.py
+msgid "The path is not available"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/DirectoryBrowser.py
+msgid "apply path"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Alternate Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Info Panels"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "          Texture"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid " could not be saved!"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid " saved successfully."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "'Not available'-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "5 - RTL"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ANTIALIASING BRIGHTNESS ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "About"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Activate or deactivate displaying the weather in the infobar."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Activate or deactivate small screen names for debugging purposes."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Active Profile / Save"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Active color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Active record color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Analog-Clock-Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Android-Temp-Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Background-Transparency"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Border Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Busy color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "CHANNELLIST ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "CLOCK ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Channellist-Mode"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Channellist-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Channellist-Transparenz"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Channelname/-number"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Channelname/-number-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose between direct zapping (1xOK) and zapping after preview (2xOK)."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose between light and dark icons in system screens. The icons in the infobars are not affected."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose between light and dark infobar icons."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from available custom weather icons. The icons must be in a subdirectory in '/usr/share/enigma2/WeatherIconSets'."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different additional windows with system informations or deactivate them completely."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different colors for the analog type clock in the infobar."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different effects to display eventname."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different icon sets for the menu screens. Many thanks to rennmaus and kleiner.teufel for their icon set."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different infobar background styles."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different infobar styles. Please note that not every style provides every feature. Therefore some features might be unavailable for the chosen style."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to display selection bars."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to display the ECM informations."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to display the PVR state."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to display the system menus. Press red button for the FAQs with details on installing menu icons."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"Choose from different options to enter your settings.\n"
+"Press the red button to search for the weather code."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to show the channel name and number in the infobar."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to show the clock in the infobar."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to show the clock in the players."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options to show the weather in the infobar."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different options where to display the ECM informations."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for CoolTVGuide."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for EnhancedMovieCenter."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for GraphicalEPG."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for MovieSelection."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for NumberZap."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"Choose from different styles for SecondInfobar. \n"
+"Activate the SecondInfobar in the \n"
+"OSD settings. \n"
+"2nd infobar -> 2nd Infobar INFO"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for the channel selection screen."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles for the volume display."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles to display EPGSelection."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose from different styles to display popups like 'MessageBox', 'ChoiceBox', 'ExtensionsList', 'VirtualKeyboard' and more."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose gradient or color for the info panels (Sysinfos, Timeshiftbar etc.)."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the alternate color for the background. It should match the texture at the best. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the alternate color for the infobars. It should match the texture at the best. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of running events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of selected events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of selection bars for EnhancedMovieCenter. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background color of selection bars. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background for all screens. You can choose from a list of predefined colors or textures, create your own color using RGB sliders or define a color gradient. Also read the FAQs regarding your own textures."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background for the infobars. You can choose from a list of predefined colors or textures or create your own color using RGB sliders."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the background for the infobars. You can choose from a list of predefined colors or textures, create your own color using RGB sliders or define a color gradient."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the border color for GraphicalEPG. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the border color for NumberZap. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the border color of MiniTV's. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the border color of progress bar. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the border color of selection bars or deactivate borders completely. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color for engaged tuners. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color for recording tuners. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color for the current live tuner when also recording. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color for the current live tuner. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of all lines. This affects dividers as well as the line in the center of some progress bars. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of progress bar background or deactivate it completely. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of progress bar. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of progress bars. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the font in selection bars for EnhancedMovieCenter. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the font in selection bars. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the infobar box lines. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the primary font. The primary font is used for list items, textboxes and other important information. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the primary infobar font. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the secondary font. The secondary font is used for headers, labels and other additional information. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the color of the secondary infobar font. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the colors of PermanentClock."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the degree of background transparency for all screens except channellists."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the degree of background transparency for the channellists."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the degree of background transparency for the infobars."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of PermanentClock. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of android-clock temperature. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of channel name and number. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of channels that are unavailable at the moment. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of marked list items. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of running events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of selected events for GraphicalEPG. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of the ECM information. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of the color button labels. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of the primetime information. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of unwatched movies. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of watched movies. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font color of watching movies. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font size for 'Standard' mainmenus."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font size of EPG list and primetime."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font size of event description, EPG list and primetime."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font size of event description."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the font size of eventname."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the frequency of loading weather data from the internet."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the global border color. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the gradient color of the icons for 'Horizontal-Icons' mainmenus."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the line color of progress bar. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the poster path"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"Choose the poster path.\n"
+"Press OK to open the browser.\n"
+"A folder 'poster' is automatically created for the poster path."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the primary background color of selection bars. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the primary color for the background gradient. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the primary color for the infobar gradient. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the resolution of the skin."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the secondary background color of selection bars. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the secondary color for the background gradient. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the secondary color for the infobar gradient. Press OK to define your own RGB color."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the speed for running text."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the start delay for running text."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the texture for the background."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the texture for the infobars."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose the title font color for 'Horizontal' and 'Horizontal-Icons' mainmenus."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether 'free to air' is displayed or not for unencrypted channels."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether AGC/SNR are displayed or not."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether primetime program information is displayed or not."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether progress bar displayed with border or line or without them."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether scrollbars should be shown."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether the poster should be displayed in the infobar or not."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether unused tuners are displayed or not."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether you want the Kraven skin to be applied to 'MediaPortal' or not. To remove it again, you must deactivate it here and activate another skin in 'MediaPortal'."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether you want the Kraven skin to be applied to 'Serienrecorder' or not. Activation of this option prohibits the skin selection in the SR-plugin."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether you want to customize the selection-colors for EnhancedMovieCenter."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose whether you want to see the infobar background in all screens (bicolored background)."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose which informations will be shown in the info box."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Choose your location:"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Clock"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Clock-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Colorbutton-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py, Plugins/Extensions/KravenHD/plugin.py
+msgid "Configuration tool for KravenHD"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "CoolTVGuide"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Correct the vertical font position within some icons for the infobars and players."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Default Profile / Reset"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Do you really want to exit without saving?"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Do you really want to reboot now?"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Do you really want to reset all values to the selected default profile?"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ECM INFOS ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ECM Infos"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ECM infos"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ECM-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EMC"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EMC-Listselection"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EMC-Selection-Colors"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EMC-Selection-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EMC-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "ENHANCED MOVIE CENTER ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EPG Fontsize"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "EPGSelection"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"Enter your location.\n"
+"Press OK to use the virtual keyboard.\n"
+"Press the red button to search for the weather code."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Enter your location:"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Event Description Fontsize"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Eventname Fontsize"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Eventname effect"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "FAQs"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"FHD \n"
+"1920 x 1080"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Finished Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GLOBAL COLORS ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GRAPHICALEPG ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"GUI needs a restart to apply a new skin.\n"
+"Do you want to Restart the GUI now?"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GraphicalEPG"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "GraphicalEPG-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"HD \n"
+"1280 x 720"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "INFOBAR-CONTENTS ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "INFOBAR-LOOK ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Icon-Font vertical position"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Icons (except Infobar)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"Infobar & \n"
+"SecondInfobar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar-Background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar-Background-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar-Box-Line"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar-Icons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobar-Transparency"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Infobox-Contents"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Language"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Lines"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Listselection-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Listselection-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Location "
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Mainmenu Fontsize ('Standard' Style)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Mainmenu Icons Gradient Color ('Horizontal-Icons' Style)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Mainmenu Title Color ('Horizontal' Styles)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Marking-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MediaPortal"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Menu-Icons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Menus"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MiniTV-Border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "MovieSelection"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "NUMBERZAP ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "No valid Weather-Code found."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "No valid location found."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "NumberZap"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "NumberZap-Style"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Off"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "On"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PLAYER ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PROFILES ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PVRState"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PermanentClock-Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "PermanentClock-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Popups"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Poster path"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Primary-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Primary-Infobar-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Primetime"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Primetime-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Primetime-Time"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Profile "
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Progress-/Volumebar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Progress-Background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Progress-Bar"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Progress-Border Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Progress-Border/Line"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Progress-Line Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "RTL"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Record color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Reduce distortions (faint/blurry) or color frames around fonts at top and bottom of screens by adjusting the antialiasing brightness."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Reduce distortions (faint/blurry) or color frames around fonts in the infobar and widgets by adjusting the antialiasing brightness."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Reduce distortions (faint/blurry) or color frames around the ECM information in the infobar by adjusting the antialiasing brightness."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Refresh interval (in minutes)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Reset profile"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Restart GUI"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Running Event Background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Running Event Fontcolor"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Running Text (Delay)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Running Text (Speed)"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "SYSTEM ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Save skin"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Screennames"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Screens"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Scrollbars"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Search Code"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Search option"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Secondary-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Secondary-Infobar-Font"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Select the default profile you want to use when resetting the active profile (OK button). You can add your own default profiles under /etc/enigma2/kravenhd_default_n (n<=20)."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Select the profile you want to work with. Profiles are saved automatically on switching them or by pressing the OK button. New profiles will be generated based on the actual one. Profiles are interchangeable between boxes."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Selected Event Background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Selected Event Fontcolor"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "SerienRecorder"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show 'free to air'"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show AGC/SNR"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show ECM Infos"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show Infobar-Background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show poster"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Show unused Tuners"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Skin Resolution"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Specify the language for the weather output."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Specify the time for your primetime."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "System-Infos"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "The FAQ requires the MPHelp plugin (enigma2-plugin-systemplugins-mphelp)."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "The KravenHD skin will be generated by this plugin according to your preferences. Make your settings and watch the changes in the preview window above. When finished, save your skin by pressing the green button and restart the GUI."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all antialiasing settings. Distortions or color frames around fonts can be reduced by this settings."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all basic settings."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all channellist settings."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all profile settings. Different settings can be saved, modified, shared and cloned. Read the FAQs."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for EMC ('EnhancedMovieCenter')."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for GraphicalEPG."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for NumberZap."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for infobar-contents."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for showing the decryption infos."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for skinned plugins."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for the different clocks."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for the infobar-look."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all settings for the movie players."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers all weather settings."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers offers all basic color settings."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "This sections offers various settings."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Unwatched Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Use custom weather icons"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Use the sliders to define your color:"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "VARIOUS SETTINGS ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "VIEWS ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Volume"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "WEATHER ________________________________________________________________________________"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Watching Color"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Weather-Code found:\n"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "Weather-Code:\n"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "You have no internet connection. This function is disabled."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"You have no permissions.\n"
+"Please choose another path."
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "about"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "antialiasing"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"border \n"
+"choose the color below"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"box-style \n"
+"with transparency \n"
+"global background \n"
+"global border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"box-style \n"
+"without transparency \n"
+"global background \n"
+"global border"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "channellist"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "clock"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"gradient-style \n"
+"with transparency \n"
+"global background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"gradient-style \n"
+"without transparency \n"
+"global background"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "infobar-contents"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "infobar-look"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid ""
+"line \n"
+"choose the color below"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "player"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "profiles"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "system"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "various"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "views"
+msgstr ""
+
+#: Plugins/Extensions/KravenHD/KravenHD.py
+msgid "weather"
+msgstr ""
